@@ -1,0 +1,31 @@
+---
+title: "index"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+read_csv(here::here("daten/raw/test.csv"))
+```
+
+# Einleitung
+
+Dieses Projekt verwendet anonymisierte Daten eines Internen Revisionsprojekts zur Prüfung der physischen Sicherheit eines Prüfobjektes.
+
+## Daten
+
+Folgende Datensätze kommen zum Einsatz:
+
+TBD
+
+## Analyzeziele
+
+Das Analyseziel ist das Herausarbeiten von Feststellungen, welche eine Beeinträchtigung der physischen Sicherheit aufzeigen.
+
+# Daten Aufbereitung
+
+# Daten Visualisierung
